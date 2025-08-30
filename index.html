@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jthewarrior</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="scriptsheet" href="script.js">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="name">
+          <h1>Jthewarrior</h1>
+        </div>
+      
+        <nav class="upper-buttons-div">
+          <button class="upper-buttons">Home</button>
+          <button class="upper-buttons">Work</button>
+          <button class="upper-buttons">Like</button>
+          <button class="upper-buttons">Tools</button>
+        </nav>
+      </header>
+      
+        <main class="container">
+            <section class="intro">
+              <h1>Welcome to My Website</h1>
+          
+              <p>Hi, I’m <strong>Jitendra Rajpoot</strong> a passionate learner and creator.</p>
+          
+              <p>
+                This website is my digital space where I share knowledge, ideas, and projects.  
+                Whether you are a student looking for helpful resources, someone interested in 
+                pharmacy and healthcare, or just curious to explore my work, you’ll find something valuable here.
+              </p>
+          
+              <ul class="highlights">
+                <li>✨ Explore free study materials</li>
+                <li>✨ Learn about pharmaceutical science & healthcare</li>
+                <li>✨ Discover my projects and creative work</li>
+                <li>✨ Stay updated with modern learning resources</li>
+              </ul>
+          
+              <p>
+                I believe in learning, sharing, and growing together.  
+                Thanks for visiting — let’s connect and build something meaningful!
+              </p>
+            </section>
+          
+            <aside class="quick-links">
+              <h2>Quick Links</h2>
+              <ul>
+                <li><a href="#study">Study Materials</a></li>
+                <li><a href="#pharma">Pharma Resources</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+              </ul>
+            </aside>
+          </main>
+
+    <main class="quiz-container">
+            <P class="heading-question">Show You Talent</P>
+            <div id="questions" class="questions-grid"></div>
+            <button id="submitBtn" class="submit-btn">Submit Answers</button>
+            <div id="score" class="score"></div>
+    </main>
+    <script src="script.js"></script>
+
+    <section class="tools-section">
+        <h2>Useful Tools</h2>
+        <div class="tools-grid">
+            <!-- Tool 1: SGPA to % -->
+            <div class="tool-card">
+                <h3>SGPA to %</h3>
+                <input type="number" id="sgpa" placeholder="Enter SGPA" min="0" max="10">
+                <button onclick="convertSGPA()">Convert</button>
+                <p id="sgpaResult"></p>
+            </div>
+    
+            <!-- Tool 2: Dose Calculation -->
+            <div class="tool-card">
+                <h3>Dose Calculation</h3>
+                <input type="number" id="weight" placeholder="Weight (kg)">
+                <input type="number" id="dosePerKg" placeholder="Dose mg/kg">
+                <button onclick="calculateDose()">Calculate</button>
+                <p id="doseResult"></p>
+            </div>
+    
+            <!-- Tool 3: CGPA Calculation -->
+            <div class="tool-card">
+                <h3>CGPA Calculator</h3>
+                <input type="number" id="cgpa" placeholder="Enter CGPA" min="0" max="10">
+                <button onclick="convertCGPA()">Convert</button>
+                <p id="cgpaResult"></p>
+            </div>
+        </div>
+    </section>
+    
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Left: Website name -->
+    <div class="footer-brand">
+      <h2>Jthewarrior</h2>
+      <p>Learning | Sharing | Growing Together</p>
+    </div>
+
+    <!-- Middle: Quick Links -->
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#study">Study Materials</a></li>
+        <li><a href="#pharma">Pharma Resources</a></li>
+        <li><a href="#projects">My Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Right: Social -->
+    <div class="footer-social">
+      <h3>Connect</h3>
+      <a href="#">🔗 LinkedIn</a>
+      <a href="#">🐦 Twitter</a>
+      <a href="#">📷 Instagram</a>
+      <a href="#">📧 Email</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Jthewarrior | All Rights Reserved</p>
+  </div>
+</footer>
+
+    
+
+</body>
+</html>
