@@ -136,8 +136,8 @@
 
 .heading-question {
     text-align: center;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 10px;
+    font-weight: 100;
     color: #0077cc;
 }
 
@@ -155,7 +155,7 @@
 }
 
 .question-card h3 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .question-card label {
@@ -352,5 +352,6 @@
         font-size: 1.2rem;
     }
 }
+
 
 
