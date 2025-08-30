@@ -18,11 +18,11 @@ const questions = [
     {q: "Which is an antifungal?", options:["Clotrimazole","Cefixime","Metformin","Paracetamol"], answer:0},
     {q: "Which drug treats malaria?", options:["Chloroquine","Ibuprofen","Insulin","Warfarin"], answer:0},
     {q: "Which electrolyte imbalance causes arrhythmia?", options:["Low Potassium","High Glucose","Low Calcium","High Sodium"], answer:0},
-    {q: "Which drug is used in hypertension?", options:["Amlodipine","Paracetamol","Amoxicillin","Omeprazole"], answer:0},
+    {q: "Which is used in hypertension?", options:["Amlodipine","Paracetamol","Amoxicillin","Omeprazole"], answer:0},
     {q: "Heparin is used as?", options:["Anticoagulant","Analgesic","Antibiotic","Antipyretic"], answer:0},
     {q: "Which is a corticosteroid?", options:["Prednisone","Ibuprofen","Amoxicillin","Insulin"], answer:0},
     {q: "Which vitamin is fat soluble?", options:["Vitamin C","Vitamin B1","Vitamin A","Vitamin B12"], answer:2},
-    {q: "Which drug treats hypothyroidism?", options:["Levothyroxine","Insulin","Metformin","Omeprazole"], answer:0},
+    {q: "Which treats hypothyroidism?", options:["Levothyroxine","Insulin","Metformin","Omeprazole"], answer:0},
     {q: "Which is used for pain?", options:["Paracetamol","Omeprazole","Aspirin","Both A & C"], answer:3},
     {q: "Which drug treats asthma?", options:["Salbutamol","Warfarin","Amoxicillin","Omeprazole"], answer:0},
     {q: "Which is a diuretic?", options:["Furosemide","Amlodipine","Insulin","Ceftriaxone"], answer:0},
@@ -107,3 +107,4 @@ function convertCGPA() {
     const percentage = cgpa * 9.5; // Standard formula
     document.getElementById("cgpaResult").innerText = `Percentage: ${percentage.toFixed(2)}%`;
 }
+
