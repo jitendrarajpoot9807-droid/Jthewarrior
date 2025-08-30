@@ -129,7 +129,7 @@
     width: 95%;
     max-width: 1300px;
     margin: 10px auto;
-    padding: 5px;
+    padding: 30px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -352,6 +352,7 @@
         font-size: 1.2rem;
     }
 }
+
 
 
 
