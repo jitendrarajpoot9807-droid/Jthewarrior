@@ -340,6 +340,53 @@
     }
 }
 
+/* Force same layout on all screens */
+body {
+    min-width: 1200px; /* fixed width layout */
+    overflow-x: auto;  /* allow scrolling if screen smaller */
+}
+
+/* Navbar - fixed row */
+.navbar {
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+/* Keep container layout same */
+.container {
+    flex-direction: row !important;
+}
+
+/* Prevent grid from collapsing into 1 column */
+.questions-grid {
+    grid-template-columns: repeat(3, 1fr) !important; /* always 3 columns */
+}
+
+.tools-grid {
+    grid-template-columns: repeat(3, 1fr) !important; /* always 3 columns */
+}
+
+/* Quick links always on right side */
+.intro {
+    flex: 0 0 75% !important;
+}
+.quick-links {
+    flex: 0 0 20% !important;
+}
+
+/* Disable mobile responsive rules */
+@media (max-width: 900px) {
+    .container,
+    .intro,
+    .quick-links,
+    .questions-grid,
+    .tools-grid {
+        all: unset; /* remove mobile overrides */
+    }
+}
+
+
 
 
 
