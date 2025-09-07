@@ -340,18 +340,7 @@
     }
 }
 
-@media (max-width: 480px) {
-    .upper-buttons {
-        font-size: 0.85rem;
-        padding: 6px 10px;
-    }
-    .heading-question {
-        font-size: 1.2rem;
-    }
-    .tools-section h2 {
-        font-size: 1.2rem;
-    }
-}
+
 
 
 
